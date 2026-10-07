@@ -25,7 +25,7 @@ install_requires = [
     "numpy",
     "pandas",
     "scikit-learn",
-    f"autogluon.common=={version}",
+    f"autogluon.common",
 ]
 
 install_requires = ag.get_dependency_version_ranges(install_requires)
